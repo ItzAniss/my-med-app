@@ -2,8 +2,21 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>My Mobile App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>AlgeriaPharma</title>
+
+<!-- PWA meta tags -->
+<meta name="theme-color" content="#00875a" />
+<meta name="description" content="Everything you need about medicines in Algeria" />
+
+<!-- iOS PWA support -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="AlgeriaPharma" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
+
+<!-- Manifest link (vite-plugin-pwa will inject this, but explicit is fine for iOS) -->
+<link rel="icon" type="image/svg+xml" href="/pwa-192x192.svg" />
 </head>
 <body>
 <div id="root"></div>
